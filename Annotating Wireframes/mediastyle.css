@@ -1,0 +1,119 @@
+@media (max-width: 992px) {
+    aside {
+        position: absolute;
+        left: -999px;
+        /*display: none;*/
+    }
+
+    .wrap {
+        width: 100%;
+    }
+
+    main {
+        max-width: 100%;
+        width: 100%;
+
+    }
+
+    .popular {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .popular > .column {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .popular > .column > .box {
+        width: 90%;
+        height: 150px;
+        margin: 5px 20px;
+    }
+
+    .line {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .previous {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .previous > .column {
+        width: 50%;
+    }
+
+    .previous > .column > .box {
+        width: 90%;
+        height: 60px;
+    }
+
+    .previous > .box {
+        width: 40%;
+        height: 200px;
+
+    }
+
+    header > .border > .nav:hover + aside {
+        left: 0;
+        top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    aside, .hidden {
+        display: none;
+    }
+
+    .nav {
+        width: 100%;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-bottom: 0;
+        align-items: end;
+    }
+
+    .content {
+        height: 800px;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .content > .column > .box {
+        width: 90%;
+    }
+
+    .previous {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .previous > .column {
+        width: 100%;
+    }
+
+    .previous > .column > .box {
+        width: 90%;
+
+    }
+
+    .previous > .box {
+        width: 90%;
+        margin: 5px auto;
+
+
+    }
+}
