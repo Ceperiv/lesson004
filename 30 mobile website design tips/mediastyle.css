@@ -1,0 +1,48 @@
+@media (max-width: 992px) {
+    main {
+        flex-direction: column;
+    }
+
+    header {
+        width: 100%;
+
+    }
+
+    nav {
+        width: 98%;
+        height: 80px;
+        box-sizing: border-box;
+    }
+    .wrap{
+        width: 100%;
+    }
+
+    .line-1 {
+        width: 100%;
+    }
+
+    .line-2 {
+        width: 100%;
+        flex-direction: column;
+    }
+    .types-of-baths{
+        width: 98%;
+
+    }
+    .related-products{
+        width: 98%;
+        height: 120px;
+    }
+
+    .line-3{
+        width: 100%;
+        position: initial;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+}
+
